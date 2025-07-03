@@ -53,7 +53,7 @@ def main():
         layout="centered"
     )
     
-    st.title("🕐 Calculadora AREG")
+    st.title("🕐 Calculadora AREG - Jornada 6h")
     st.markdown("---")
     
     # Campos de entrada
@@ -83,7 +83,7 @@ def main():
     with col4:
         intervalo_fim = st.text_input(
             "Fim do intervalo",
-            placeholder="13:00",
+            placeholder="12:30",
             help="Digite no formato HH:MM"
         )
     
@@ -124,8 +124,8 @@ def main():
     # Rodapé
     st.markdown("---")
     st.markdown(
-        "<div style='text-align: center; color: gray; font-size: 24px;'>"
-        "CAIXA | Desenvolvido por c150930"
+        "<div style='text-align: center; color: gray; font-size: 18px;'>"
+        "CAIXA • Desenvolvido por c150930"
         "</div>",
         unsafe_allow_html=True
     )
